@@ -24,14 +24,14 @@ def get_version():
 
 
 setuptools.setup(
-    name="yolov7detect",
+    name="yolov7_easy",
     version=get_version(),
-    author="kadirnar",
+    author="AkashDesai",
     license="MIT",
     description="Packaged version of the Yolov7 repository",
     long_description=get_long_description(),
     long_description_content_type="text/markdown",
-    url="https://github.com/kadirnar/yolov7-pip",
+    url="https://github.com/akashAD98/yolov7-pip-1",
     packages=setuptools.find_packages(),
     python_requires=">=3.6",
     install_requires=get_requirements(),
