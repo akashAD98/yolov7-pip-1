@@ -52,7 +52,7 @@ def load_model(model_path, autoshape=True, device=None, trace=True, size=640, ha
 
 
 if __name__ == "__main__":
-    repo_id = "kadirnar/yolov7-v0.1"
+    repo_id = "akashAD98/yolov7-v0.1"
     device = "cuda:0"
     model = load_model(repo_id, device, trace=True, size=640, hf_token=None)
     imgs = [Image.open(x) for x in Path("inference/images").glob("*.jpg")]
