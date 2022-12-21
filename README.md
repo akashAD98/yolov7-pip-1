@@ -12,7 +12,7 @@
 This repo is a packaged version of the [Yolov7](https://github.com/WongKinYiu/yolov7) model.
 ### Installation
 ```
-pip install yolov7detect
+pip install yolov7_easy
 ```
 
 ### Yolov7 Inference
